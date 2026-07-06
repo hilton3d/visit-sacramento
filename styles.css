@@ -1,0 +1,258 @@
+body {
+  background-color: #ba9675;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.white-container {
+  background-color: white;
+  margin: 4vh;
+  padding: 2vh;
+  border-radius: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section {
+  background-image: url("images/smaller/sacramento-smaller.jpg");
+  background-size: cover;
+  background-position: center 42%;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-top-left-radius: 2vh;
+  border-top-right-radius: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 7vh;
+}
+
+.visit-sacramento {
+  background-color: #6c5c49;
+  color: white;
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 2vh;
+  text-align: center;
+  width: 650px;
+  margin-bottom: 1.5vh;
+}
+
+.enjoy-beautiful {
+  background-color: #2f2d61;
+  color: white;
+  font-size: 1rem;
+  padding: 2vh;
+  text-align: center;
+  width: 650px;
+}
+
+.middle-section-favorite-places {
+  background-color: #fedbbc;
+  display: flex;
+  flex-direction: column;
+  padding: 6vh;
+  gap: 7vh;
+}
+
+.title-middle-section {
+  color: #2f2d61;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.row-location-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 7vh;
+}
+
+.place-box {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.place-picture {
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  border: 8px solid #23bc96;
+}
+
+.image-blurb {
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 80%;
+  text-align: center;
+}
+
+.text-headline {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 80%;
+  text-align: center;
+}
+
+.text-paragraph {
+  text-align: center;
+  width: 80%;
+}
+
+.bottom-section-me {
+  background-color: white;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green-box {
+  background: #8dead3;
+  display: flex;
+  justify-content: center;
+  padding: 3vh;
+}
+
+.me-picture {
+  width: 280px;
+  object-fit: cover;
+  object-position: 0% center;
+}
+
+.description-me {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1400px) {
+  .row-location-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7vh;
+  }
+}
+
+@media (max-width: 995px) {
+  .visit-sacramento {
+    background-color: #6c5c49;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 2vh;
+    text-align: center;
+    width: 450px;
+    margin-bottom: 1.5vh;
+  }
+
+  .enjoy-beautiful {
+    background-color: #2f2d61;
+    color: white;
+    font-size: 1rem;
+    padding: 2vh;
+    text-align: center;
+    width: 450px;
+  }
+}
+
+@media (max-width: 863px) {
+  .bottom-section-me {
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+  }
+  .green-box {
+    background: #8dead3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vh;
+  }
+}
+
+@media (max-width: 720px) {
+  .visit-sacramento {
+    background-color: #6c5c49;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 2vh;
+    text-align: center;
+    width: 270px;
+    margin-bottom: 1.5vh;
+  }
+
+  .enjoy-beautiful {
+    background-color: #2f2d61;
+    color: white;
+    font-size: 1rem;
+    padding: 2vh;
+    text-align: center;
+    width: 270px;
+  }
+}
+
+@media (max-width: 585px) {
+  .visit-sacramento {
+    background-color: #6c5c49;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2vh;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 1.5vh;
+  }
+
+  .enjoy-beautiful {
+    background-color: #2f2d61;
+    color: white;
+    font-size: 1rem;
+    padding: 2vh;
+    text-align: center;
+    width: 200px;
+  }
+
+  .title-middle-section {
+    color: #2f2d61;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .place-box {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .place-picture {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border: 8px solid #23bc96;
+  }
+
+  .me-picture {
+    width: 200px;
+    object-fit: cover;
+    object-position: 0% center;
+  }
+
+  .description-me {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
