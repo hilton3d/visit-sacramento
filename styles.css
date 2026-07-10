@@ -30,7 +30,7 @@ body {
 .visit-sacramento {
   background-color: #6c5c49;
   color: white;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 600;
   padding: 2vh;
   text-align: center;
@@ -53,7 +53,7 @@ body {
   background-color: #fedbbc;
   display: flex;
   flex-direction: column;
-  padding: 6vh;
+  padding: 7vh;
   gap: 7vh;
 }
 
@@ -75,6 +75,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2vh;
 }
 
 .place-picture {
@@ -115,7 +116,7 @@ body {
   background: #8dead3;
   display: flex;
   justify-content: center;
-  padding: 3vh;
+  padding: 4vh;
 }
 
 .me-picture {
@@ -129,6 +130,8 @@ body {
   width: 300px;
   flex-direction: column;
   align-items: center;
+  margin-top: 3vh;
+  gap: 2vh;
 }
 
 @media (max-width: 1400px) {
@@ -160,6 +163,10 @@ body {
     text-align: center;
     width: 450px;
   }
+
+  .title-middle-section {
+    font-size: 1.7rem;
+  }
 }
 
 @media (max-width: 863px) {
@@ -177,7 +184,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 3vh;
+    padding: 4vh;
+    align-items: center;
   }
 }
 
@@ -185,7 +193,7 @@ body {
   .visit-sacramento {
     background-color: #6c5c49;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     padding: 2vh;
     text-align: center;
@@ -200,6 +208,10 @@ body {
     padding: 2vh;
     text-align: center;
     width: 270px;
+  }
+
+  .title-middle-section {
+    font-size: 1.5rem;
   }
 }
 
@@ -211,7 +223,7 @@ body {
     font-weight: 600;
     padding: 2vh;
     text-align: center;
-    width: 200px;
+    width: 270px;
     margin-bottom: 1.5vh;
   }
 
@@ -221,7 +233,7 @@ body {
     font-size: 1rem;
     padding: 2vh;
     text-align: center;
-    width: 200px;
+    width: 270px;
   }
 
   .title-middle-section {
@@ -256,5 +268,50 @@ body {
     width: 200px;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .header-section {
+    background-image: url("images/smaller/sacramento-smaller.jpg");
+    background-size: cover;
+    background-position: center 42%;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 9vh;
+  }
+
+  .visit-sacramento {
+    background-color: #6c5c49;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2vh;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 1.5vh;
+  }
+
+  .enjoy-beautiful {
+    background-color: #2f2d61;
+    color: white;
+    font-size: 0.75rem;
+    padding: 2vh;
+    text-align: center;
+    width: 200px;
+  }
+
+  .title-middle-section {
+    font-size: 1.25rem;
+  }
+
+  .image-blurb {
+    font-size: 1.1rem;
   }
 }
